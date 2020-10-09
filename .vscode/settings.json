@@ -1,0 +1,4 @@
+{
+    "C_Cpp.default.cppStandard": "gnu++11",
+    "C_Cpp.default.cStandard": "gnu11"
+}
