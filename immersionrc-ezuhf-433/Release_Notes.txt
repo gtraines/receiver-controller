@@ -1,0 +1,79 @@
+# release notes
+
+#----------------------------------------------------------------------------------------#	
+██╗███╗   ███╗███╗   ███╗███████╗██████╗ ███████╗██╗ ██████╗ ███╗   ██╗██████╗  ██████╗
+██║████╗ ████║████╗ ████║██╔════╝██╔══██╗██╔════╝██║██╔═══██╗████╗  ██║██╔══██╗██╔════╝
+██║██╔████╔██║██╔████╔██║█████╗  ██████╔╝███████╗██║██║   ██║██╔██╗ ██║██████╔╝██║     
+██║██║╚██╔╝██║██║╚██╔╝██║██╔══╝  ██╔══██╗╚════██║██║██║   ██║██║╚██╗██║██╔══██╗██║     
+██║██║ ╚═╝ ██║██║ ╚═╝ ██║███████╗██║  ██║███████║██║╚██████╔╝██║ ╚████║██║  ██║╚██████╗
+╚═╝╚═╝     ╚═╝╚═╝  ████████╗═██████╗  ██████╗═██╗╚═╝ ╚███████╗═╝  ╚═══╝╚═╝  ╚═╝ ╚═════╝
+                   ╚══██╔══╝██╔═══██╗██╔═══██╗██║     ██╔════╝                         
+                      ██║   ██║   ██║██║   ██║██║     ███████╗                         
+                      ██║   ██║   ██║██║   ██║██║     ╚════██║                         
+                      ██║   ╚██████╔╝╚██████╔╝███████╗███████║                         
+                      ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝                         
+#----------------------------------------------------------------------------------------#	
+
+### v1.42.5 - 04/21/2016
+## What's new
+- Sign CDC and Bootloader drivers with new certificate
+## Bugfix
+- Fix EZUHF German frequency setting.
+
+### v1.42.4 - 12/21/2015
+## Bugfix
+- Fix for SUMD\SUMH\XBUS Vortex Receiver mode ( indexes were messed up ).
+
+
+### v1.42.3 - 11/13/2015
+## Bugfix
+- Fix XuGong v2/Pro channels assigments whith none
+- Fix Vortex Receiver mode compatibility
+                   
+				   
+### v1.42.2 - 10/05/2015
+## What's new
+- New Control added to XuGong v2 Configure tab to configure Menu Off channel
+
+	
+### v1.42.1 - 08/31/2015
+## What's new
+- Speedup communication with Vortex ( read\write settings )
+
+									
+### v1.42.0 - 07/26/2015
+## What's new
+- Clear instruction for Vortex firmware upgrade.
+
+
+### v1.41.9 - 07/06/2015
+## Bugfix	
+- Fix vortex communication errors.
+	
+	
+### v1.41.8 - 07/02/2015
+## What's new
+- Receiver Mode control added in Vortex Configure tab ( Vortex 1.0.0.11 Beta )
+
+### v1.41.7 - 06/09/2015
+## What's new
+- Extend support for Vortex
+	
+	
+### v1.41.4 - 05/16/2015
+## What's new
+- Add Vortex to product list
+- Configure for Vortex button added to ezUHF configuration tab 
+- Add new icon for ImmersionRC
+## Bugfix
+- Fix wrong MessageBox title on binding success
+
+	
+### v1.41.3	- 02/02/2015
+## What's new
+- Add EzAntennaTracker v1/v2 
+- Reorganize IRC Product list
+- New icon for XuGong v2/Pro
+## Bugfix
+- Fix ImmersionRC drivers installation during software install
+- Fix 'Configure for XuGong v2/Pro' for EzUHF-Rx
