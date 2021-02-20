@@ -1,16 +1,29 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "/home/graham/.arduino15/packages/arduino/tools/**",
+                "/home/graham/.arduino15/packages/arduino/hardware/avr/1.6.21/**",
+                "${workspaceFolder}/**",
+                "/home/graham/arduino-1.8.13/hardware/arduino/avr/cores/arduino",
+                "/home/graham/arduino-1.8.13/hardware/tools/avr/avr/include",
+                "/home/graham/arduino-1.8.13/hardware/arduino/avr/variants/mega",
+                "/home/graham/arduino-1.8.13/hardware/arduino/avr/**",
+                "/home/graham/arduino-1.8.13/tools/**"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "intelliSenseMode": "msvc-x64"
+            "intelliSenseMode": "gcc-x64",
+            "cppStandard": "c++11",
+            "cStandard": "gnu11",
+            "compilerPath": "/usr/bin/avr-gcc",
+            "forcedInclude": [
+                "/home/graham/arduino-1.8.13/hardware/arduino/avr/cores/arduino/Arduino.h"
+            ]
         }
     ],
     "version": 4
